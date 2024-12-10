@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a></li>
+        <li><a href="contact.html" class="active"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-form">
+      <center><h1>Contact <span class="highlight">Me</span></h1
+      <p class="intro-text">I'd love to hear from you! Fill out the form below and I'll get back to you soon.</p>
+    
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name"><i class="fas fa-user"></i> Name:</label>
+          <input type="text" id="name" placeholder="Your Name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+          <input type="email" id="email" placeholder="Your Email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="subject"><i class="fas fa-tag"></i> Subject:</label>
+          <input type="text" id="subject" placeholder="Subject" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message"><i class="fas fa-comment"></i> Message:</label>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+        </div>
+
+        <button type="submit" class="cta-button"><i class="fas fa-paper-plane"></i> Send Message</button>
+      </form></center>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Abinandh KV. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
